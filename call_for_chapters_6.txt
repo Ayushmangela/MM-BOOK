@@ -1,0 +1,182 @@
+IGI Global Scientific Publishing
+Cart
+Sign In
+EN
+
+
+Explore Our Content 
+Who We Serve 
+Resources 
+About Us
+Publish with IGI Global Scientific Publishing
+IGI Global Scientific Publishing Accomplishments
+Submitting a Project Proposal
+Peer Review Process
+Marketing and Distribution
+Publishing Resources
+eEditorial Discovery® System
+Open Access Publishing
+Open Access Funding Resources
+Ethics and Malpractice
+COPE Membership
+Fair Use Policy
+ORCID Integration
+Research Areas of Interest
+Submit a Project Proposal
+Call for Papers
+Abstracting and Indexing
+Awards
+Research Partnerships
+FAQ
+Contact Development Team
+Publishing Opportunities
+Sign up to receive notifications on future publishing opportunities!
+First name*: 
+
+Last name*: 
+
+E-mail*: 
+
+Job title:
+
+University:
+
+Department:
+
+Research interests*: 
+
+Call for Chapters: Digital Marketing and Brand Visibility in the Age of Generative Discovery
+Editors
+Lara Bacalhau, CEOS.PP Coimbra, ISCAC, Polytechnic University of Coimbra, Coimbra, Portugal, Portugal
+Miguel Pereira, GOVCOPP, ISCA, University of Aveiro; CEOS.PP Coimbra, Polytechnic University of Coimbra, Coimbra, Portugal, Portugal
+Paula Pinheiro, ISCA, University of Aveiro, Aveiro, Portugal; Escola Superior de Tecnologia e Gestão de Viseu, Instituto Politécnico de Viseu, Portugal; Portucalense University, Research on Economics, Management and Information Technologies, REMIT, Porto, Portugal, Portugal
+
+Call for Chapters
+Proposals Submission Deadline: October 25, 2026
+Full Chapters Due: January 17, 2027
+Submission Date: January 17, 2027
+Introduction
+Brand discovery is moving away from brand-controlled channels and ranked link lists toward synthesised answers produced by generative systems and toward algorithmically curated feeds. Under these conditions, the classical antecedents of brand performance, such as attention, salience and awareness, are determined less by the exposure a firm buys or controls, and more by whether a brand is retrieved, cited and accurately represented by a model that stands between the consumer and the market. This book examines what that displacement means for digital marketing theory and practice. Previous studies formalised generative engine optimisation and established that classical keyword tactics have a negligible effect on citation probability, whereas source credibility and quotation substantially increase it (Aggarwal et al., 2024), and the measurement literature has followed suit. Marketing scholarship, by contrast, has approached generative AI mainly as a production and research instrument; as a content generator whose output can exceed human benchmarks under specified conditions (Hartmann et al. 2025), as a strategic implementation problem (Grewal et al. 2025), as a method for consumer research (Yoo et al., 2025), and as an ethics and public policy question (Hermann & Puntoni, 2025). In parallel, advertising research has advanced the instrumentation of attention itself (Bruns et al., 2025). This book intends to provide a sustained treatment of how generative mediation reallocates brand visibility, and of how attention constructs and measures transfer to a setting where the first audience for brand content is a retrieval-and-synthesis pipeline. The book consolidates fast-moving evidence, provides vocabulary and measurement conventions for an emerging research stream, and establishes an agenda that marketing scholars can take up without first having to reconstruct the technical literature.
+---
+References
+Aggarwal, P., Murahari, V., Rajpurohit, T., Kalyan, A., Narasimhan, K., & Deshpande, A. (2024). GEO: Generative engine optimization. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (pp. 5–16). Association for Computing Machinery. https://doi.org/10.1145/3637528.3671900
+Bruns, D., Kopka, J. F., Borgmann, L., Prior, S., & Langner, T. (2025). Measuring gaining and holding attention to social media ads with viewport logging: A validation study using mobile eye-tracking. Journal of Advertising, 54, 655–672. https://doi.org/10.1080/00913367.2025.2524186
+Grewal, D., Satornino, C. B., Davenport, T., & Guha, A. (2025). How generative AI is shaping the future of marketing. Journal of the Academy of Marketing Science, 53(3), 702–722. https://doi.org/10.1007/s11747-024-01064-3
+Hartmann, J., Exner, Y., & Domdey, S. (2025). The power of generative marketing: Can generative AI create superhuman visual marketing content? International Journal of Research in Marketing, 42(1), 13–31. https://doi.org/10.1016/j.ijresmar.2024.09.002
+Hermann, E., & Puntoni, S. (2025). Generative AI in marketing and principles for ethical design and deployment. Journal of Public Policy & Marketing, 44(3), 332–349. https://doi.org/10.1177/07439156241309874
+Yoo, K., Haenlein, M., & Hewett, K. (2025). A whole new world, a new fantastic point of view: Charting unexplored territories in consumer research with generative artificial intelligence. Journal of the Academy of Marketing Science, 53(3), 723–759.
+Objective
+The book treats brand visibility as a dependent variable in machine-mediated environments and organises contributions around four questions: how attention and salience should be conceptualised when a model performs the initial filtering; how visibility in generative and recommender systems can be measured with defensible instruments; what marketing actions plausibly influence it; and what distributional and regulatory consequences follow. Chapters combine conceptual work, empirical studies, case-based analysis and sector applications.
+Target Audience
+The intended audience are academic researchers and doctoral students in marketing, advertising, communication, information systems and tourism; instructors of graduate courses in digital marketing, brand management and marketing analytics; brand managers, media planners, search and content strategists, and analytics practitioners; policy analysts and regulators concerned with algorithmic visibility, disclosure and market concentration; and academic librarians building collections in digital marketing and applied AI.
+Recommended Topics
+The following topics provide several suggestions for authors.
+Conceptual foundations
+• Attention as a scarce resource: revisiting attention economics for machine-mediated markets
+• Brand salience and mental availability when retrieval precedes recall
+• Rethinking brand awareness constructs under generative mediation
+• Consideration set formation when a model performs the first filtering
+• Consumer-based brand equity in the absence of direct exposure
+• Model representations of brands as a form of brand image
+• Theoretical limits of hierarchy-of-effects models in algorithmic discovery
+Generative and algorithmic discovery
+• Generative engine optimisation: evidence, mechanisms and marketing implications
+• Answer engine optimisation and the decline of click-through as an outcome
+• Zero-click search and the erosion of brand-owned traffic
+• Entity strategy: knowledge graphs, structured data and brand disambiguation
+• Recommender systems and feed curation as visibility gatekeepers
+• Retrieval-augmented generation and the strategic value of citable content
+• Agentic commerce and AI purchasing assistants
+• Third-party sources (encyclopaedic entries, review platforms, trade press) as visibility infrastructure
+Human attention
+• Scalable computational measures of attention and their validation
+• Eye-tracking, biometric and neuromarketing evidence on brand attention
+• Short-form video and attentional allocation to brand content
+• Attention currencies in media planning and trading
+• Ad avoidance, banner blindness and attention decay
+• Attention quality versus attention quantity in brand-building outcomes
+Content, creators and intermediaries
+• Influencers and creators as attention brokers
+• User-generated content as an input to generative brand representations
+• Authenticity, disclosure and consumer response to AI-generated brand content
+• Synthetic influencers and virtual brand personas
+• Community and forum content as a source of model-visible brand signals
+Measurement and methods
+• Prompt-based auditing of brand visibility across generative platforms
+• Share-of-model, citation rate and mention frequency as brand metrics
+• Cross-platform variance and the instability of visibility measures
+• Attribution and effectiveness measurement when discovery is unobservable
+• Experimental designs for testing content interventions on model outputs
+• Reconciling attention metrics with algorithmic visibility metrics
+• Reliability and replicability challenges in fast-changing platform environments
+Ethics, governance and market structure
+• Visibility concentration and the disadvantage of small and independent brands
+• Manipulation, adversarial prompt injection and the boundaries of legitimate optimisation
+• Bias in model representations of brands, categories and regions
+• Disclosure obligations and transparency in AI-mediated recommendation
+• Implications of the EU AI Act and the Digital Services Act for brand visibility
+• Consumer welfare and informed choice when synthesis replaces comparison
+• Sustainability and the resource costs of visibility competition
+Contexts and applications
+• Destination branding and tourism in AI-mediated trip planning
+• Retail and e-commerce assortment visibility
+• B2B buying journeys initiated in generative search
+• SMEs, resource constraints and low-cost visibility strategies
+• Hospitality: independent operators versus chains in model recommendations
+• Higher education, healthcare and other high-consideration categories
+• Public sector and non-profit communication in algorithmic environments
+• Cross-cultural and emerging-market perspectives on AI-mediated discovery
+Submission Procedure
+Researchers and practitioners are invited to submit on or before October 25, 2026, a chapter proposal of 1,000 to 2,000 words clearly explaining the mission and concerns of his or her proposed chapter. Authors will be notified by November 8, 2026 about the status of their proposals and sent chapter guidelines.Full chapters of a minimum of 10,000 words (word count includes references and related readings) are expected to be submitted by January 17, 2027, and all interested authors must consult the guidelines for manuscript submissions at https://www.igi-global.com/publish/contributor-resources/before-you-write/ prior to submission. All submitted chapters will be reviewed on a double-anonymized review basis. Contributors may also be requested to serve as reviewers for this project.
+
+Note: There are no submission or acceptance fees for manuscripts submitted to this book publication, Digital Marketing and Brand Visibility in the Age of Generative Discovery. All manuscripts are accepted based on a double-anonymized peer review editorial process.
+
+All proposals should be submitted through the eEditorial Discovery® online submission manager.
+
+Publisher
+This book is scheduled to be published by IGI Global Scientific Publishing, an international academic publisher of the "Information Science Reference", "Medical Information Science Reference", "Business Science Reference", and "Engineering Science Reference" imprints. IGI Global Scientific Publishing specializes in publishing reference books, scholarly journals, and electronic databases featuring academic research on a variety of innovative topic areas including, but not limited to, education, social science, medicine and healthcare, business and management, information science and technology, engineering, public administration, library and information science, media and communication studies, and environmental science. For additional information regarding the publisher, please visit https://www.igi-global.com. This publication is anticipated to be released in 2027.
+
+Indexing Information for Prospective Authors
+IGI Global Scientific Publishing meets the criteria for inclusion in major indexing services such as Scopus; however, it is important to note that all indexing decisions are made independently by these services. IGI Global Scientific Publishing books are selectively indexed by the indexing organization after publication. Indexing cannot be guaranteed for any book prior to publication, and the indexing organization has complete control over the final selection and timeline.
+Important Dates
+October 25, 2026: Proposal Submission Deadline
+November 8, 2026: Notification of Acceptance
+January 17, 2027: Full Chapter Submission
+February 28, 2027: Review Results Returned
+March 28, 2027: Final Acceptance Notification
+April 4, 2027: Final Chapter Submission
+
+Inquiries
+Lara Bacalhau
+CEOS.PP Coimbra, ISCAC, Polytechnic University of Coimbra, Coimbra, Portugal
+lmendes@iscac.pt
+
+Miguel Pereira
+GOVCOPP, ISCA, University of Aveiro; CEOS.PP Coimbra, Polytechnic University of Coimbra, Coimbra, Portugal
+miguel.pereira@ua.pt
+
+Paula Pinheiro
+ISCA, University of Aveiro, Aveiro, Portugal; Escola Superior de Tecnologia e Gestão de Viseu, Instituto Politécnico de Viseu, Portugal; Portucalense University, Research on Economics, Management and Information Technologies, REMIT, Porto, Portugal
+ppinheiro@ua.pt
+
+Classifications
+Business and Management; Computer Science and Information Technology; Media and Communications
+Back to Call for Papers List
+Learn More
+About IGI Global Scientific Publishing | Partnerships & COPE Membership | Contact Us | Job Opportunities | FAQ | Management Team
+Resources For
+Librarians | Authors/Editors | Distributors | Instructors | Translators
+Media Center
+Webinars | Blogs | Catalogs | Newsletters
+Policies
+Privacy Policy | Cookie & Tracking Notice | Fair Use Policy | Accessibility | Ethics and Malpractice | Rights & Permissions
+Locations
+Americas
+701 E. Chocolate Avenue, Hershey, PA 17033, USA (Headquarters)
+250 Broadway, Suite 620, New York, NY 10007, USA
+Europe
+123 Pall Mall, London, England, SW1Y 5EA, UK
+China
+212 Zhongguojin, Lvdizhongxin, Wangjing, Chaoyang District, Beijing 100102, P.R. China
+      World Forgotten Children's Foundation  Committee on Publication Ethics (COPE)
+Copyright © 1988-2026, IGI Global Scientific Publishing - All Rights Reserved
