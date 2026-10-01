@@ -1,0 +1,69 @@
+# Collection settings. Everything here is copied into every raw record (minus secrets).
+# Models marked TO_CONFIRM are confirmed against each provider's live model list at pilot
+# time and then frozen here before the main run (see logs/deviations.md).
+
+seed: 20261001            # shuffles the call schedule
+repetitions: 5            # independent calls per prompt per platform
+timeout_s: 180
+max_attempts: 3           # 1 call + up to 2 retries; failures are recorded, never dropped
+backoff_s: [10, 40]
+
+location:                 # shared location context wherever a platform accepts one
+  country: IN
+  region: Maharashtra
+  city: Mumbai
+  timezone: Asia/Kolkata
+
+platforms:
+  chatgpt:
+    label: ChatGPT
+    provider: OpenAI
+    api: "Responses API with the built-in web_search tool"
+    endpoint: "https://api.openai.com/v1/responses"
+    env_key: OPENAI_API_KEY
+    model: TO_CONFIRM      # API model closest to the ChatGPT free-tier default at collection time
+    min_interval_s: 1.0
+    notes: "tool_choice left at default (auto), so the model decides whether to search, as in ChatGPT. No system prompt is sent."
+
+  gemini:
+    label: Gemini
+    provider: Google
+    api: "Gemini API Interactions endpoint with the google_search grounding tool"
+    endpoint: "https://generativelanguage.googleapis.com/v1beta/interactions"
+    env_key: GEMINI_API_KEY
+    model: TO_CONFIRM      # Flash model that is the Gemini app default for free users at collection time
+    min_interval_s: 4.0
+    notes: "The grounding tool has no location parameter; requests originate from Mumbai, India. No system prompt is sent."
+
+  perplexity:
+    label: Perplexity
+    provider: Perplexity AI
+    api: "Agent API (successor to Sonar Chat Completions, retired 27 Sept 2026) with the 'fast' preset"
+    endpoint: "https://api.perplexity.ai/v1/agent"
+    env_key: PERPLEXITY_API_KEY
+    preset: fast           # Perplexity's documented replacement for the 'sonar' model
+    min_interval_s: 1.0
+    notes: "The preset carries Perplexity's own system prompt and search configuration. user_location is set on the web_search tool."
+
+  aio:
+    label: Google AI Overviews
+    provider: Google (collected via SerpApi)
+    api: "SerpApi Google Search API; ai_overview block, with google_ai_overview follow-up when Google loads it separately"
+    endpoint: "https://serpapi.com/search.json"
+    env_key: SERPAPI_API_KEY
+    params:
+      engine: google
+      google_domain: google.co.in
+      gl: in
+      hl: en
+      location: "Mumbai, Maharashtra, India"
+      device: desktop
+      no_cache: "true"     # forces a fresh Google search on every repetition (SerpApi otherwise caches for 1 h)
+    min_interval_s: 1.0
+    notes: "A query for which Google shows no AI Overview is recorded as no_overview (a non-response), not as zero visibility."
+
+coder:
+  provider: Anthropic
+  model: claude-opus-5-5   # independent of all four audited vendors
+  effort: medium
+  env_key: ANTHROPIC_API_KEY

@@ -1,0 +1,238 @@
+# Study brand set. Retrieved and verified 2026-10-01 (IST) unless stated.
+# brand_type is assigned by ORIGIN (how the brand was built), not current ownership.
+#   d2c_origin = Indian brand built online-first (own site + marketplaces), launched 2013 or later
+#   incumbent  = brand established in the category before the Indian D2C wave, multi-channel, mass-media built
+# Ownership changes are recorded in ownership_note and analysed as a sensitivity check.
+#
+# aliases: matched case-insensitively with word boundaries unless listed under aliases_case_sensitive.
+# ambiguous: true means a plain-word reading exists (e.g. "noise cancellation", "Kakadu plum",
+#   "minimalist routine"); every hit is cross-checked against the LLM coder's brand list and
+#   disagreements go to data/manual/ambiguity_review.csv for a human decision.
+# positioning_codes: attribute codes (see config/attribute_codes.csv) that the brand's OWN official
+#   wording claims. Derived only from the quoted text below. To be checked by a second author.
+
+retrieved: "2026-10-01"
+
+categories:
+  skincare:
+    label: "Face serums and moisturisers"
+  audio:
+    label: "Truly wireless earbuds"
+
+brands:
+  - id: minimalist
+    name: "Minimalist"
+    category: skincare
+    brand_type: d2c_origin
+    ownership_note: "Indian D2C-origin brand (Uprising Science, Jaipur, launched 2020). Hindustan Unilever acquired 90.5% in April 2025."
+    ownership_sources:
+      - "https://www.unilever.com/news/press-and-media/press-releases/2025/hul-to-acquire-premium-beauty-brand-minimalist/"
+      - "https://in.fashionnetwork.com/news/Hindustan-unilever-completes-acquisition-of-90-5-percent-stake-in-minimalist-for-rs-2-706-crore,1722276.html"
+    official_domains: ["beminimalist.co"]
+    aliases: ["Be Minimalist", "beminimalist"]
+    aliases_case_sensitive: ["Minimalist"]
+    ambiguous: true
+    exclude_patterns: ["(?i)minimalist (routine|approach|skincare routine|lifestyle|design|look|packaging)"]
+    positioning_source: "https://beminimalist.co/pages/about ; https://beminimalist.co (title tag)"
+    positioning_quotes:
+      - "Minimalist - Honest, Authentic & Affordable Beauty Products"
+      - "a high-performance skincare brand rooted in scientific research"
+      - "a revolution with respect to transparency of ingredients"
+      - "highly efficacious & targeted solutions"
+    positioning_codes: [TRANSPARENT, SCIENCE, ACTIVES, VALUE]
+
+  - id: dermaco
+    name: "The Derma Co"
+    category: skincare
+    brand_type: d2c_origin
+    ownership_note: "Indian D2C-origin brand launched 2020 by Honasa Consumer (listed on NSE/BSE since 2023; also owns Mamaearth)."
+    ownership_sources:
+      - "https://thedermaco.com/pages/about"
+      - "https://www.indianretailer.com/news/honasa-consumer-profit-more-doubles-rs-200-cr-fy26"
+    official_domains: ["thedermaco.com"]
+    aliases: ["The Derma Co", "The Derma Co.", "Derma Co", "Derma Co.", "TheDermaCo", "The Derma Company", "TDC"]
+    aliases_case_sensitive: []
+    ambiguous: false
+    positioning_source: "https://thedermaco.com/pages/about"
+    positioning_quotes:
+      - "Science-Based Skincare, Designed by Dermatologists for Indian Skin"
+      - "make dermatologist-grade skincare simple, transparent, and accessible through clinically proven active ingredients"
+      - "Every product clearly highlights key active ingredients and their concentrations on the front of the packaging"
+    positioning_codes: [DERM, ACTIVES, SCIENCE, TRANSPARENT]
+
+  - id: plum
+    name: "Plum"
+    category: skincare
+    brand_type: d2c_origin
+    ownership_note: "Indian D2C-origin brand (Pureplay Skin Sciences, launched 2013). Founder-led and independent; Unilever Ventures, Faering Capital among past investors."
+    ownership_sources:
+      - "https://tracxn.com/d/legal-entities/india/pureplay-skin-sciences-india-private-limited/__LTLfVQnx0CMte54GSLQUR0OoIl9zKvbc2z8riMe1r0M"
+      - "https://www.gcimagazine.com/brands-products/news/news/21875718/pureplay-skin-sciences-raises-110-crore-in-series-b-funding"
+    official_domains: ["plumgoodness.com"]
+    aliases: ["Plum Goodness", "plumgoodness"]
+    aliases_case_sensitive: ["Plum"]
+    ambiguous: true
+    exclude_patterns: ["(?i)kakadu plum", "(?i)plum (extract|oil|seed|fruit|kernel)", "(?i)\\bplums\\b"]
+    positioning_source: "https://plumgoodness.com ; https://plumgoodness.com/pages/about-us"
+    positioning_quotes:
+      - "India's first 100% vegan beauty brand"
+      - "Science-Backed Skincare, Haircare & Body care | 100% vegan"
+      - "Thoughtfully picked ingredients, carefully tested & designed to deliver beyond catchy promises"
+    positioning_codes: [NATURAL, SCIENCE]
+
+  - id: cetaphil
+    name: "Cetaphil"
+    category: skincare
+    brand_type: incumbent
+    ownership_note: "Global incumbent (launched 1947), owned by Galderma."
+    ownership_sources: ["https://www.cetaphil.in/why-cetaphil/our-story.html"]
+    official_domains: ["cetaphil.in", "cetaphil.com"]
+    aliases: ["Cetaphil"]
+    aliases_case_sensitive: []
+    ambiguous: false
+    positioning_source: "https://www.cetaphil.in ; https://www.cetaphil.in/why-cetaphil/our-story.html"
+    positioning_quotes:
+      - "Cetaphil is a dermatologist-recommended brand offering sensitive skincare products"
+      - "We specifically formulate our products to care for all types of sensitive skin"
+      - "trusted for 75 years, and we continuously conduct rigorous clinical testing"
+    positioning_codes: [GENTLE, DERM, HERITAGE, SCIENCE]
+
+  - id: neutrogena
+    name: "Neutrogena"
+    category: skincare
+    brand_type: incumbent
+    ownership_note: "Global incumbent, owned by Kenvue. Kimberly-Clark's agreed acquisition of Kenvue had not closed at the time of data collection."
+    ownership_sources:
+      - "https://www.kenvue.com/media/kimberly-clark-and-kenvue-shareholders-approve-kimberly-clark-acquisition-of-kenvue"
+    official_domains: ["neutrogena.in", "neutrogena.com"]
+    aliases: ["Neutrogena", "Hydro Boost", "Hydroboost"]
+    aliases_case_sensitive: []
+    ambiguous: false
+    positioning_source: "https://www.neutrogena.in/about-the-brand"
+    positioning_quotes:
+      - "three beautiful words: Recommended by dermatologists"
+      - "the quality, safety, efficacy and beauty of Neutrogena"
+    positioning_codes: [DERM, SCIENCE]
+
+  - id: lakme
+    name: "Lakmé"
+    category: skincare
+    brand_type: incumbent
+    ownership_note: "Domestic incumbent (Indian cosmetics brand since 1952), owned by Hindustan Unilever."
+    ownership_sources: ["https://www.lakmeindia.com/pages/about-us"]
+    official_domains: ["lakmeindia.com"]
+    aliases: ["Lakmé", "Lakme", "Lakmē"]
+    aliases_case_sensitive: []
+    ambiguous: false
+    positioning_source: "https://www.lakmeindia.com/pages/about-us"
+    positioning_quotes:
+      - "the expert on Indian Beauty for over 50 years"
+      - "Combining international cosmetic technology with an in-depth understanding of the Indian woman's needs"
+      - "products that are ideal for a variety of Indian skin tones"
+    positioning_codes: [HERITAGE, INDIAN]
+
+  - id: boat
+    name: "boAt"
+    category: audio
+    brand_type: d2c_origin
+    ownership_note: "Indian D2C-origin brand (Imagine Marketing Ltd). SEBI approved its IPO in 2025; unlisted at the time of data collection."
+    ownership_sources:
+      - "https://www.boat-lifestyle.com/pages/who-are-we"
+      - "https://www.chittorgarh.com/ipo/boat-ipo/2310/"
+    official_domains: ["boat-lifestyle.com"]
+    aliases: ["boAt", "boAt Lifestyle", "Airdopes", "Rockerz", "boAt Nirvana"]
+    aliases_case_sensitive: []
+    ambiguous: true
+    exclude_patterns: []
+    positioning_source: "https://www.boat-lifestyle.com/pages/who-are-we"
+    positioning_quotes:
+      - "in search of affordable, durable and ultra fashionable audio products"
+      - "MAKE IN INDIA BY AN INDIAN BRAND"
+      - "India's No.1 Personal Audio Brand (2020-2024)"
+    positioning_codes: [VALUE, DURABILITY, DESIGN, INDIAN]
+
+  - id: noise
+    name: "Noise"
+    category: audio
+    brand_type: d2c_origin
+    ownership_note: "Indian D2C-origin brand (Nexxbase Marketing, launched 2014). Bose Corporation holds a minority stake."
+    ownership_sources:
+      - "https://www.gonoise.com/pages/about-us"
+      - "https://www.marcamoney.com/bose-appoints-noise-parent-nexxbase-marketing-as-online-channel-distributor-in-india/"
+    official_domains: ["gonoise.com"]
+    aliases: ["gonoise", "NoiseFit"]
+    aliases_case_sensitive: ["Noise"]
+    ambiguous: true
+    exclude_patterns: ["(?i)noise[- ]?(cancel|cancell|cancelation|cancellation|reduction|isolation|isolating|control|suppression|level|floor|leak|canceling)", "(?i)(ambient|background|wind|white|external|outside) noise"]
+    positioning_source: "https://www.gonoise.com ; https://www.gonoise.com/pages/about-us"
+    positioning_quotes:
+      - "a design-first lifestyle technology brand on a mission to make smart technology more accessible"
+      - "We believe in democratising connected lifestyle tech"
+      - "Made in India for the World"
+    positioning_codes: [DESIGN, VALUE, INDIAN]
+
+  - id: boult
+    name: "Boult"
+    category: audio
+    brand_type: d2c_origin
+    ownership_note: "Indian D2C-origin brand (Boult Audio Pvt Ltd, now trading as GoBoult). Founder-owned; no external venture funding reported."
+    ownership_sources:
+      - "https://goboult.co.in/pages/about-us"
+      - "https://entrackr.com/fintrackr/boult-audio-revenue-jumps-40-to-over-rs-700-cr-in-fy24-9000150"
+    official_domains: ["boultaudio.com", "goboult.co.in", "goboult.com"]
+    aliases: ["Boult", "Boult Audio", "GoBoult", "Go Boult"]
+    aliases_case_sensitive: []
+    ambiguous: false
+    positioning_source: "https://www.boultaudio.com (title tag and meta description)"
+    positioning_quotes:
+      - "India's No.1 Rated Audio Brand"
+      - "innovative earbuds ... with premium features, modern design, and great value"
+    positioning_codes: [FEATURES, DESIGN, VALUE]
+
+  - id: sony
+    name: "Sony"
+    category: audio
+    brand_type: incumbent
+    ownership_note: "Global incumbent (Sony Group Corporation)."
+    ownership_sources: ["https://www.sony.co.in/headphones"]
+    official_domains: ["sony.co.in", "sony.com", "sony.net"]
+    aliases: ["Sony", "LinkBuds", "WF-1000XM5", "WF-1000XM6", "WF-C510", "WF-C700N", "WF-C710N"]
+    aliases_case_sensitive: []
+    ambiguous: false
+    positioning_source: "https://www.sony.co.in/headphones (viewed in browser)"
+    positioning_quotes:
+      - "Tune out the noise and enjoy your music at its purest with industry-leading noise cancellation"
+      - "Exceptional Sound. Considered Design."
+      - "Elevate the high-resolution sound experience"
+    positioning_codes: [ANC, SOUND]
+
+  - id: jbl
+    name: "JBL"
+    category: audio
+    brand_type: incumbent
+    ownership_note: "Global incumbent (Harman International, a Samsung Electronics subsidiary since 2017)."
+    ownership_sources: ["https://in.jbl.com/"]
+    official_domains: ["jbl.com", "in.jbl.com", "harman.com"]
+    aliases: ["JBL"]
+    aliases_case_sensitive: []
+    ambiguous: false
+    positioning_source: "https://in.jbl.com/ (viewed in browser)"
+    positioning_quotes:
+      - "JBL brings epic sound quality, time-tested durability, and all the feels"
+    positioning_codes: [SOUND, DURABILITY]
+
+  - id: samsung
+    name: "Samsung"
+    category: audio
+    brand_type: incumbent
+    ownership_note: "Global incumbent (Samsung Electronics); Galaxy Buds range."
+    ownership_sources: ["https://www.samsung.com/in/audio-sound/"]
+    official_domains: ["samsung.com"]
+    aliases: ["Samsung", "Galaxy Buds"]
+    aliases_case_sensitive: []
+    ambiguous: false
+    positioning_source: "https://www.samsung.com/in/audio-sound/"
+    positioning_quotes:
+      - "Explore Samsung Galaxy Buds series with smart features & comfortable designs"
+      - "Galaxy AI features such as interpreter and Live Translate"
+    positioning_codes: [FEATURES, COMFORT]

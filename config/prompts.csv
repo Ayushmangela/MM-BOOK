@@ -1,0 +1,61 @@
+prompt_id,category,prompt_type,text,branded,brands_named
+SK-G01,skincare,generic,What are the best face serums available in India?,false,
+SK-G02,skincare,generic,Which face serum should I buy in India?,false,
+SK-G03,skincare,generic,Suggest a good moisturiser for daily use in India.,false,
+SK-G04,skincare,generic,What is the best vitamin C serum in India?,false,
+SK-G05,skincare,generic,What is the best niacinamide serum in India?,false,
+SK-G06,skincare,generic,Which skincare brands are good for serums and moisturisers in India?,false,
+SK-G07,skincare,generic,What are the top-rated hyaluronic acid serums in India?,false,
+SK-G08,skincare,generic,What are the most popular face moisturisers in India right now?,false,
+SK-G09,skincare,generic,Which brand makes the best face serum for beginners in India?,false,
+SK-G10,skincare,generic,What is a good night cream or night moisturiser available in India?,false,
+SK-U01,skincare,use_case,Which serum is good for oily and acne-prone skin?,false,
+SK-U02,skincare,use_case,I have dry skin and live in Delhi. Which moisturiser should I use in winter?,false,
+SK-U03,skincare,use_case,What is the best moisturiser for sensitive skin that does not cause breakouts?,false,
+SK-U04,skincare,use_case,Which face serum helps with pigmentation and dark spots on Indian skin?,false,
+SK-U05,skincare,use_case,Suggest a lightweight moisturiser for humid weather in Mumbai.,false,
+SK-U06,skincare,use_case,What serum should I use for early signs of ageing in my late 20s?,false,
+SK-U07,skincare,use_case,Which moisturiser is good for combination skin in India?,false,
+SK-U08,skincare,use_case,Recommend a gentle face serum for a skincare beginner with sensitive skin.,false,
+SK-P01,skincare,price_band,Best face serum under Rs. 500 in India,false,
+SK-P02,skincare,price_band,Good moisturiser under Rs. 300 for daily use,false,
+SK-P03,skincare,price_band,Best vitamin C serum under Rs. 700 in India,false,
+SK-P04,skincare,price_band,Which face serums under Rs. 1000 are worth buying?,false,
+SK-P05,skincare,price_band,Best moisturiser under Rs. 1500 in India for dry skin,false,
+SK-P06,skincare,price_band,Best premium face serum under Rs. 2500 in India,false,
+SK-C01,skincare,comparison,Is Minimalist better than Cetaphil for sensitive skin?,true,minimalist;cetaphil
+SK-C02,skincare,comparison,Neutrogena or Minimalist: which moisturiser is better for oily skin?,true,neutrogena;minimalist
+SK-C03,skincare,comparison,The Derma Co vs Neutrogena: which is better for acne-prone skin?,true,dermaco;neutrogena
+SK-C04,skincare,comparison,Is Lakmé better than The Derma Co for pigmentation?,true,lakme;dermaco
+SK-C05,skincare,comparison,Plum vs Lakmé: which face serum is better for glowing skin?,true,plum;lakme
+SK-C06,skincare,comparison,Should I buy Cetaphil or Plum moisturiser for dry skin?,true,cetaphil;plum
+AU-G01,audio,generic,What are the best wireless earbuds in India?,false,
+AU-G02,audio,generic,Which TWS earbuds brand is best in India?,false,
+AU-G03,audio,generic,Suggest good Bluetooth earbuds for daily use in India.,false,
+AU-G04,audio,generic,What are the top-rated truly wireless earbuds in India?,false,
+AU-G05,audio,generic,Which earbuds should I buy in India right now?,false,
+AU-G06,audio,generic,Which brands make reliable wireless earbuds in India?,false,
+AU-G07,audio,generic,Which earbuds have the best sound quality in India?,false,
+AU-G08,audio,generic,What are the best noise cancelling earbuds in India?,false,
+AU-G09,audio,generic,Recommend some value for money earbuds in India.,false,
+AU-G10,audio,generic,What are the most popular earbuds in India?,false,
+AU-U01,audio,use_case,Which earbuds are best for the gym and running?,false,
+AU-U02,audio,use_case,I take a lot of work calls on the Mumbai local train. Which earbuds have the best mic?,false,
+AU-U03,audio,use_case,What are the best earbuds for mobile gaming with low latency?,false,
+AU-U04,audio,use_case,Which earbuds are good for long flights with noise cancellation?,false,
+AU-U05,audio,use_case,Recommend earbuds for a college student who listens to music all day.,false,
+AU-U06,audio,use_case,What are the best earbuds for watching movies and web series on my phone?,false,
+AU-U07,audio,use_case,Which earbuds have the longest battery life for travel?,false,
+AU-U08,audio,use_case,Suggest comfortable earbuds for small ears that do not fall out.,false,
+AU-P01,audio,price_band,Best earbuds under Rs. 1000 in India,false,
+AU-P02,audio,price_band,Best wireless earbuds under Rs. 2000 in India,false,
+AU-P03,audio,price_band,Best TWS earbuds with ANC under Rs. 3000,false,
+AU-P04,audio,price_band,Which earbuds under Rs. 5000 are worth buying?,false,
+AU-P05,audio,price_band,Best earbuds under Rs. 10000 in India,false,
+AU-P06,audio,price_band,Best premium earbuds under Rs. 20000 in India,false,
+AU-C01,audio,comparison,Is boAt better than Sony for earbuds?,true,boat;sony
+AU-C02,audio,comparison,JBL or boAt earbuds: which should I buy?,true,jbl;boat
+AU-C03,audio,comparison,Noise vs JBL earbuds: which has better sound?,true,noise;jbl
+AU-C04,audio,comparison,Samsung Galaxy Buds or Noise earbuds: which is better value?,true,samsung;noise
+AU-C05,audio,comparison,Boult vs Samsung earbuds: which is more reliable?,true,boult;samsung
+AU-C06,audio,comparison,Sony or Boult: which earbuds are better for calls?,true,sony;boult
