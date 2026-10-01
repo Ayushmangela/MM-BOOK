@@ -13,3 +13,9 @@
   reliability/figures/verify code. Tested analysis code on SYNTHETIC data in the scratchpad only.
 - Verified ~60 references against Crossref/arXiv (refs/verified.json).
 - Drew Figure 1 (framework). Wrote chapter sections up to Method; Findings and later sections await data.
+- Snapshotted official catalogues (Shopify products.json) for Minimalist, The Derma Co, Plum, Lakmé, boAt, Noise,
+  Boult on 2026-10-01 for the accuracy check. Incumbents without public catalogues: fact sheets to be built by hand
+  for the products the models actually mention.
+- Proofread Introduction to Method against sources; softened three paraphrases that could not be verified word for word.
+- Built Book_Chapter_Generative_Brand_Equity.docx (Findings and dependent sections still placeholders).
+- WAITING ON: .env with API keys -> confirm model IDs -> pilot (16 calls) -> user go-ahead -> full run.
