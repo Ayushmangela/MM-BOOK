@@ -10,8 +10,9 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
-CONFIG = ROOT / "config"
+# MMBOOK_ROOT lets the test harness run the pipeline on synthetic data in a scratch folder.
+ROOT = Path(os.environ.get("MMBOOK_ROOT", Path(__file__).resolve().parents[1]))
+CONFIG = Path(__file__).resolve().parents[1] / "config"
 RAW = ROOT / "data" / "raw"
 INTERIM = ROOT / "data" / "interim"
 MANUAL = ROOT / "data" / "manual"
@@ -26,7 +27,7 @@ PLATFORM_LABEL = {"chatgpt": "ChatGPT", "gemini": "Gemini", "perplexity": "Perpl
 
 def load_env() -> None:
     """Read KEY=VALUE lines from .env into os.environ without printing anything."""
-    env = ROOT / ".env"
+    env = Path(__file__).resolve().parents[1] / ".env"
     if not env.exists():
         return
     for line in env.read_text().splitlines():

@@ -1,0 +1,33 @@
+domain,source_type,owner_brand_id,note
+beminimalist.co,brand_owned,minimalist,official site
+thedermaco.com,brand_owned,dermaco,official site
+plumgoodness.com,brand_owned,plum,official site
+cetaphil.in,brand_owned,cetaphil,official site
+cetaphil.com,brand_owned,cetaphil,official site
+neutrogena.in,brand_owned,neutrogena,official site
+neutrogena.com,brand_owned,neutrogena,official site
+lakmeindia.com,brand_owned,lakme,official site
+boat-lifestyle.com,brand_owned,boat,official site
+gonoise.com,brand_owned,noise,official site
+boultaudio.com,brand_owned,boult,official site
+goboult.co.in,brand_owned,boult,official site
+goboult.com,brand_owned,boult,official site
+sony.co.in,brand_owned,sony,official site
+sony.com,brand_owned,sony,official site
+jbl.com,brand_owned,jbl,official site
+harman.com,brand_owned,jbl,parent company site
+samsung.com,brand_owned,samsung,official site
+amazon.in,marketplace,,marketplace
+amazon.com,marketplace,,marketplace
+flipkart.com,marketplace,,marketplace
+nykaa.com,marketplace,,beauty marketplace and retailer
+myntra.com,marketplace,,marketplace
+tirabeauty.com,marketplace,,beauty retailer
+purplle.com,marketplace,,beauty marketplace
+croma.com,marketplace,,electronics retailer
+reliancedigital.in,marketplace,,electronics retailer
+vijaysales.com,marketplace,,electronics retailer
+wikipedia.org,encyclopaedic,,encyclopaedia
+reddit.com,community_ugc,,forum
+quora.com,community_ugc,,Q&A community
+youtube.com,video,,video platform

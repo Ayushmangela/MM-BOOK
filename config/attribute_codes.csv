@@ -24,7 +24,7 @@ audio,BATTERY,Battery life,"Described in terms of battery life, playtime or fast
 audio,CALLS,Call quality,"Described in terms of call quality, microphones or environmental noise cancellation for calls."
 audio,GAMING,Gaming / low latency,"Described in terms of low latency or a gaming mode."
 audio,COMFORT,Comfort / fit,"Described in terms of fit, comfort or light weight."
-audio,DURABILITY,Build / durability,"Described in terms of build quality, durability, or water and sweat resistance."
+audio,DURABILITY,Durability / build quality,"Described in terms of build quality, durability, or water and sweat resistance."
 audio,DESIGN,Design / style,"Described in terms of design, looks, style, colours or fashion."
 audio,FEATURES,Features / ecosystem,"Described in terms of app support, EQ, multipoint, spatial audio, AI features or ecosystem integration."
 audio,HERITAGE,Established / trusted,"Described as an established, reputed, trusted or reliable audio brand."

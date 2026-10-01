@@ -1,0 +1,13 @@
+Dimension,Measure,Definition
+Model awareness,Mention rate,Valid non-branded responses naming the brand / all valid non-branded responses on that platform and category
+Model awareness,Share of model,Mentions of the brand / mentions of all six study brands in the category (non-branded responses)
+Model prominence,First-mention rate,Responses in which the brand is the first study brand named / valid non-branded responses
+Model prominence,Top-pick rate,Responses presenting the brand as the single best choice / valid non-branded responses
+Model prominence,Mean position,"Mean order of first mention among all brands named, for responses that name the brand"
+Model image,Positioning recall,Descriptions of the brand carrying at least one of its own positioning attributes / descriptions with any coded attribute
+Model image,Sentiment,"Distribution of positive, neutral, mixed and negative descriptions of the brand"
+Model image,Accuracy rate,Correct factual claims / (correct + incorrect) claims; unverifiable claims reported separately
+Model credibility,Source mix,Share of each source type among sources displayed with responses that name the brand
+Model credibility,Own-site citation rate,Responses naming the brand that display the brand's own website / responses naming the brand
+Stability,Run-to-run Jaccard,Mean pairwise Jaccard similarity J of the sets of study brands named across the five runs of a prompt (10 pairs)
+Stability,Cross-platform spread,Range of a brand's mention rate across the four platforms
