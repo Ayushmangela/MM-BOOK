@@ -1,0 +1,713 @@
+{
+ "10.1145/3637528.3671900": {
+  "title": "GEO: Generative Engine Optimization",
+  "authors": [
+   "Aggarwal, Pranjal",
+   "Murahari, Vishvak",
+   "Rajpurohit, Tanmay",
+   "Kalyan, Ashwin",
+   "Narasimhan, Karthik",
+   "Deshpande, Ameet"
+  ],
+  "year": 2024,
+  "container": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+  "volume": null,
+  "issue": null,
+  "page": "5-16",
+  "article": null,
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "10.1509/jmkr.43.3.345": {
+  "title": "The Effect of Word of Mouth on Sales: Online Book Reviews",
+  "authors": [
+   "Chevalier, Judith A.",
+   "Mayzlin, Dina"
+  ],
+  "year": 2006,
+  "container": "Journal of Marketing Research",
+  "volume": "43",
+  "issue": "3",
+  "page": "345-354",
+  "article": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "10.1177/001316446002000104": {
+  "title": "A Coefficient of Agreement for Nominal Scales",
+  "authors": [
+   "Cohen, Jacob"
+  ],
+  "year": 1960,
+  "container": "Educational and Psychological Measurement",
+  "volume": "20",
+  "issue": "1",
+  "page": "37-46",
+  "article": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "10.1287/mnsc.49.10.1407.17308": {
+  "title": "The Digitization of Word of Mouth: Promise and Challenges of Online Feedback Mechanisms",
+  "authors": [
+   "Dellarocas, Chrysanthos"
+  ],
+  "year": 2003,
+  "container": "Management Science",
+  "volume": "49",
+  "issue": "10",
+  "page": "1407-1424",
+  "article": null,
+  "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+  "type": "journal-article"
+ },
+ "10.1007/s11747-024-01064-3": {
+  "title": "How generative AI Is shaping the future of marketing",
+  "authors": [
+   "Grewal, Dhruv",
+   "Satornino, Cinthia B.",
+   "Davenport, Thomas",
+   "Guha, Abhijit"
+  ],
+  "year": 2024,
+  "container": "Journal of the Academy of Marketing Science",
+  "volume": "53",
+  "issue": "3",
+  "page": "702-722",
+  "article": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "10.1016/j.ijresmar.2024.09.002": {
+  "title": "The power of generative marketing: Can generative AI create superhuman visual marketing content?",
+  "authors": [
+   "Hartmann, Jochen",
+   "Exner, Yannick",
+   "Domdey, Samuel"
+  ],
+  "year": 2025,
+  "container": "International Journal of Research in Marketing",
+  "volume": "42",
+  "issue": "1",
+  "page": "13-31",
+  "article": null,
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "10.1177/07439156241309874": {
+  "title": "Generative AI in Marketing and Principles for Ethical Design and Deployment",
+  "authors": [
+   "Hermann, Erik",
+   "Puntoni, Stefano"
+  ],
+  "year": 2025,
+  "container": "Journal of Public Policy &amp; Marketing",
+  "volume": "44",
+  "issue": "3",
+  "page": "332-349",
+  "article": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "10.1080/01972240050133634": {
+  "title": "Shaping the Web: Why the Politics of Search Engines Matters",
+  "authors": [
+   "Lucas D. Introna, Helen Nissenbaum, "
+  ],
+  "year": 2000,
+  "container": "The Information Society",
+  "volume": "16",
+  "issue": "3",
+  "page": "169-185",
+  "article": null,
+  "publisher": "Informa UK Limited",
+  "type": "journal-article"
+ },
+ "10.1145/3571730": {
+  "title": "Survey of Hallucination in Natural Language Generation",
+  "authors": [
+   "Ji, Ziwei",
+   "Lee, Nayeon",
+   "Frieske, Rita",
+   "Yu, Tiezheng",
+   "Su, Dan",
+   "Xu, Yan",
+   "Ishii, Etsuko",
+   "Bang, Ye Jin",
+   "Madotto, Andrea",
+   "Fung, Pascale"
+  ],
+  "year": 2023,
+  "container": "ACM Computing Surveys",
+  "volume": "55",
+  "issue": "12",
+  "page": "1-38",
+  "article": null,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "type": "journal-article"
+ },
+ "10.1177/002224299305700101": {
+  "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+  "authors": [
+   "Keller, Kevin Lane"
+  ],
+  "year": 1993,
+  "container": "Journal of Marketing",
+  "volume": "57",
+  "issue": "1",
+  "page": "1-22",
+  "article": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "10.2307/2529310": {
+  "title": "The Measurement of Observer Agreement for Categorical Data",
+  "authors": [
+   "Landis, J. Richard",
+   "Koch, Gary G."
+  ],
+  "year": 1977,
+  "container": "Biometrics",
+  "volume": "33",
+  "issue": "1",
+  "page": "159",
+  "article": null,
+  "publisher": "JSTOR",
+  "type": "journal-article"
+ },
+ "10.1177/002224296102500611": {
+  "title": "A Model for Predictive Measurements of Advertising Effectiveness",
+  "authors": [
+   "Lavidge, Robert J.",
+   "Steiner, Gary A."
+  ],
+  "year": 1961,
+  "container": "Journal of Marketing",
+  "volume": "25",
+  "issue": "6",
+  "page": "59-62",
+  "article": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "10.1086/208556": {
+  "title": "Recall and Consumer Consideration Sets: Influencing Choice without Altering Brand Evaluations",
+  "authors": [
+   "Nedungadi, Prakash"
+  ],
+  "year": 1990,
+  "container": "Journal of Consumer Research",
+  "volume": "17",
+  "issue": "3",
+  "page": "263",
+  "article": null,
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article"
+ },
+ "10.1007/BF00554125": {
+  "title": "Consideration set influences on consumer decision-making and choice: Issues, models, and suggestions",
+  "authors": [
+   "Shocker, Allan D.",
+   "Ben-Akiva, Moshe",
+   "Boccara, Bruno",
+   "Nedungadi, Prakash"
+  ],
+  "year": 1991,
+  "container": "Marketing Letters",
+  "volume": "2",
+  "issue": "3",
+  "page": "181-197",
+  "article": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "10.1080/00913367.2025.2524186": {
+  "title": "Measuring Gaining and Holding Attention to Social Media Ads with Viewport Logging: A Validation Study Using Mobile Eye-Tracking",
+  "authors": [
+   "Bruns, Daniel",
+   "Kopka, Julian Felix",
+   "Borgmann, Lennart",
+   "Prior, Steffen",
+   "Langner, Tobias"
+  ],
+  "year": 2025,
+  "container": "Journal of Advertising",
+  "volume": "54",
+  "issue": "5",
+  "page": "655-672",
+  "article": null,
+  "publisher": "Informa UK Limited",
+  "type": "journal-article"
+ },
+ "10.4135/9781071878781": {
+  "title": "Content Analysis: An Introduction to Its Methodology",
+  "authors": [
+   "Krippendorff, Klaus"
+  ],
+  "year": 2019,
+  "container": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "article": null,
+  "publisher": "SAGE Publications, Inc.",
+  "type": "monograph"
+ },
+ "10.18653/v1/2023.acl-long.546": {
+  "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+  "authors": [
+   "Mallen, Alex",
+   "Asai, Akari",
+   "Zhong, Victor",
+   "Das, Rajarshi",
+   "Khashabi, Daniel",
+   "Hajishirzi, Hannaneh"
+  ],
+  "year": 2023,
+  "container": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "volume": null,
+  "issue": null,
+  "page": "9802-9822",
+  "article": null,
+  "publisher": "Association for Computational Linguistics",
+  "type": "proceedings-article"
+ },
+ "10.18653/v1/2023.findings-emnlp.467": {
+  "title": "Evaluating Verifiability in Generative Search Engines",
+  "authors": [
+   "Liu, Nelson",
+   "Zhang, Tianyi",
+   "Liang, Percy"
+  ],
+  "year": 2023,
+  "container": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+  "volume": null,
+  "issue": null,
+  "page": "7001-7025",
+  "article": null,
+  "publisher": "Association for Computational Linguistics",
+  "type": "proceedings-article"
+ },
+ "10.1561/1100000083": {
+  "title": "Auditing Algorithms: Understanding Algorithmic Systems from the Outside In",
+  "authors": [
+   "Metaxa, Danaë",
+   "Park, Joon Sung",
+   "Robertson, Ronald E.",
+   "Karahalios, Karrie",
+   "Wilson, Christo",
+   "Hancock, Jeff",
+   "Sandvig, Christian"
+  ],
+  "year": 2021,
+  "container": "Foundations and Trends® in Human–Computer Interaction",
+  "volume": "14",
+  "issue": "4",
+  "page": "272-344",
+  "article": null,
+  "publisher": "Emerald",
+  "type": "journal-article"
+ },
+ "10.1287/mksc.19.1.4.15178": {
+  "title": "Consumer Decision Making in Online Shopping Environments: The Effects of Interactive Decision Aids",
+  "authors": [
+   "Häubl, Gerald",
+   "Trifts, Valerie"
+  ],
+  "year": 2000,
+  "container": "Marketing Science",
+  "volume": "19",
+  "issue": "1",
+  "page": "4-21",
+  "article": null,
+  "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+  "type": "journal-article"
+ },
+ "10.2307/25148784": {
+  "title": "E-Commerce Product Recommendation Agents: Use, Characteristics, and Impact1",
+  "authors": [
+   "Xiao, Bo",
+   "Benbasat, Izak"
+  ],
+  "year": 2007,
+  "container": "MIS Quarterly",
+  "volume": "31",
+  "issue": "1",
+  "page": "137-209",
+  "article": null,
+  "publisher": "MIS Quarterly",
+  "type": "journal-article"
+ },
+ "10.1007/s11002-020-09537-5": {
+  "title": "Consumer decisions with artificially intelligent voice assistants",
+  "authors": [
+   "Dellaert, Benedict G. C.",
+   "Shu, Suzanne B.",
+   "Arentze, Theo A.",
+   "Baker, Tom",
+   "Diehl, Kristin",
+   "Donkers, Bas",
+   "Fast, Nathanael J.",
+   "Häubl, Gerald",
+   "Johnson, Heidi",
+   "Karmarkar, Uma R.",
+   "Oppewal, Harmen",
+   "Schmitt, Bernd H.",
+   "Schroeder, Juliana",
+   "Spiller, Stephen A.",
+   "Steffel, Mary"
+  ],
+  "year": 2020,
+  "container": "Marketing Letters",
+  "volume": "31",
+  "issue": "4",
+  "page": "335-347",
+  "article": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "10.1177/0022242920953847": {
+  "title": "Consumers and Artificial Intelligence: An Experiential Perspective",
+  "authors": [
+   "Puntoni, Stefano",
+   "Reczek, Rebecca Walker",
+   "Giesler, Markus",
+   "Botti, Simona"
+  ],
+  "year": 2020,
+  "container": "Journal of Marketing",
+  "volume": "85",
+  "issue": "1",
+  "page": "131-151",
+  "article": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "10.1287/mksc.2017.1072": {
+  "title": "The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions",
+  "authors": [
+   "Ursu, Raluca M."
+  ],
+  "year": 2018,
+  "container": "Marketing Science",
+  "volume": "37",
+  "issue": "4",
+  "page": "530-552",
+  "article": null,
+  "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+  "type": "journal-article"
+ },
+ "10.1111/j.1083-6101.2007.00351.x": {
+  "title": "In Google We Trust: Users’ Decisions on Rank, Position, and Relevance",
+  "authors": [
+   "Pan, Bing",
+   "Hembrooke, Helene",
+   "Joachims, Thorsten",
+   "Lorigo, Lori",
+   "Gay, Geri",
+   "Granka, Laura"
+  ],
+  "year": 2007,
+  "container": "Journal of Computer-Mediated Communication",
+  "volume": "12",
+  "issue": "3",
+  "page": "801-823",
+  "article": null,
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article"
+ },
+ "10.1086/383434": {
+  "title": "Brand Credibility, Brand Consideration, and Choice",
+  "authors": [
+   "Erdem, Tülin",
+   "Swait, Joffre"
+  ],
+  "year": 2004,
+  "container": "Journal of Consumer Research",
+  "volume": "31",
+  "issue": "1",
+  "page": "191-198",
+  "article": null,
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article"
+ },
+ "10.1207/s15327663jcp0702_02": {
+  "title": "Brand Equity as a Signaling Phenomenon",
+  "authors": [
+   "Erdem, Tülin",
+   "Swait, Joffre"
+  ],
+  "year": 1998,
+  "container": "Journal of Consumer Psychology",
+  "volume": "7",
+  "issue": "2",
+  "page": "131-157",
+  "article": null,
+  "publisher": "Wiley",
+  "type": "journal-article"
+ },
+ "10.1086/266350": {
+  "title": "The Influence of Source Credibility on Communication Effectiveness",
+  "authors": [
+   "Hovland, Carl I.",
+   "Weiss, Walter"
+  ],
+  "year": 1951,
+  "container": "Public Opinion Quarterly",
+  "volume": "15",
+  "issue": "4",
+  "page": "635",
+  "article": null,
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article"
+ },
+ "10.1287/mnsc.1080.0974": {
+  "title": "Blockbuster Culture's Next Rise or Fall: The Impact of Recommender Systems on Sales Diversity",
+  "authors": [
+   "Fleder, Daniel",
+   "Hosanagar, Kartik"
+  ],
+  "year": 2009,
+  "container": "Management Science",
+  "volume": "55",
+  "issue": "5",
+  "page": "697-712",
+  "article": null,
+  "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+  "type": "journal-article"
+ },
+ "10.1073/pnas.2305016120": {
+  "title": "ChatGPT outperforms crowd workers for text-annotation tasks",
+  "authors": [
+   "Gilardi, Fabrizio",
+   "Alizadeh, Meysam",
+   "Kubli, Maël"
+  ],
+  "year": 2023,
+  "container": "Proceedings of the National Academy of Sciences",
+  "volume": "120",
+  "issue": "30",
+  "page": null,
+  "article": "e2305016120",
+  "publisher": "National Academy of Sciences",
+  "type": "journal-article"
+ },
+ "10.1111/j.1469-8137.1912.tb05611.x": {
+  "title": "THE DISTRIBUTION OF THE FLORA IN THE ALPINE ZONE.\n                    <sup>1</sup>",
+  "authors": [
+   "Jaccard, Paul"
+  ],
+  "year": 1912,
+  "container": "New Phytologist",
+  "volume": "11",
+  "issue": "2",
+  "page": "37-50",
+  "article": null,
+  "publisher": "Wiley",
+  "type": "journal-article"
+ },
+ "10.1201/9780429246593": {
+  "title": "An Introduction to the Bootstrap",
+  "authors": [
+   "Efron, Bradley",
+   "Tibshirani, R.J."
+  ],
+  "year": 1994,
+  "container": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "article": null,
+  "publisher": "Chapman and Hall/CRC",
+  "type": "book"
+ },
+ "10.1145/3697010": {
+  "title": "An Empirical Study of the Non-Determinism of ChatGPT in Code Generation",
+  "authors": [
+   "Ouyang, Shuyin",
+   "Zhang, Jie M.",
+   "Harman, Mark",
+   "Wang, Meng"
+  ],
+  "year": 2025,
+  "container": "ACM Transactions on Software Engineering and Methodology",
+  "volume": "34",
+  "issue": "2",
+  "page": "1-28",
+  "article": null,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "type": "journal-article"
+ },
+ "10.1177/1470593104047643": {
+  "title": "Conceptualizing and measuring brand salience",
+  "authors": [
+   "Romaniuk, Jenni",
+   "Sharp, Byron"
+  ],
+  "year": 2004,
+  "container": "Marketing Theory",
+  "volume": "4",
+  "issue": "4",
+  "page": "327-342",
+  "article": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "10.1007/s13162-016-0078-z": {
+  "title": "Reflections on customer-based brand equity: perspectives, progress, and priorities",
+  "authors": [
+   "Keller, Kevin Lane"
+  ],
+  "year": 2016,
+  "container": "AMS Review",
+  "volume": "6",
+  "issue": "1-2",
+  "page": "1-16",
+  "article": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "10.1111/j.1467-9868.2007.00593.x": {
+  "title": "Bootstrapping Clustered Data",
+  "authors": [
+   "Field, C. A.",
+   "Welsh, A. H."
+  ],
+  "year": 2007,
+  "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+  "volume": "69",
+  "issue": "3",
+  "page": "369-390",
+  "article": null,
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article"
+ },
+ "10.1145/3613904.3642459": {
+  "title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking",
+  "authors": [
+   "Sharma, Nikhil",
+   "Liao, Q. Vera",
+   "Xiao, Ziang"
+  ],
+  "year": 2024,
+  "container": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+  "volume": null,
+  "issue": null,
+  "page": "1-17",
+  "article": null,
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "10.1111/j.1468-2958.2002.tb00826.x": {
+  "title": "Content Analysis in Mass Communication: Assessment and Reporting of Intercoder Reliability",
+  "authors": [
+   "Lombard, Matthew",
+   "Snyder-Duch, Jennifer",
+   "Bracken, Cheryl Campanella"
+  ],
+  "year": 2002,
+  "container": "Human Communication Research",
+  "volume": "28",
+  "issue": "4",
+  "page": "587-604",
+  "article": null,
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article"
+ },
+ "10.1080/19312450709336664": {
+  "title": "Answering the Call for a Standard Reliability Measure for Coding Data",
+  "authors": [
+   "Hayes, Andrew F.",
+   "Krippendorff, Klaus"
+  ],
+  "year": 2007,
+  "container": "Communication Methods and Measures",
+  "volume": "1",
+  "issue": "1",
+  "page": "77-89",
+  "article": null,
+  "publisher": "Informa UK Limited",
+  "type": "journal-article"
+ },
+ "10.1287/mnsc.1110.1371": {
+  "title": "Goodbye Pareto Principle, Hello Long Tail: The Effect of Search Costs on the Concentration of Product Sales",
+  "authors": [
+   "Brynjolfsson, Erik",
+   "Hu, Yu (Jeffrey)",
+   "Simester, Duncan"
+  ],
+  "year": 2011,
+  "container": "Management Science",
+  "volume": "57",
+  "issue": "8",
+  "page": "1373-1386",
+  "article": null,
+  "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+  "type": "journal-article"
+ },
+ "10.1162/tacl_a_00638": {
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "authors": [
+   "Liu, Nelson F.",
+   "Lin, Kevin",
+   "Hewitt, John",
+   "Paranjape, Ashwin",
+   "Bevilacqua, Michele",
+   "Petroni, Fabio",
+   "Liang, Percy"
+  ],
+  "year": 2024,
+  "container": "Transactions of the Association for Computational Linguistics",
+  "volume": "12",
+  "issue": null,
+  "page": "157-173",
+  "article": null,
+  "publisher": "MIT Press",
+  "type": "journal-article"
+ },
+ "10.1509/jmr.14.0528": {
+  "title": "Design of Search Engine Services: Channel Interdependence in Search Engine Results",
+  "authors": [
+   "Edelman, Benjamin",
+   "Lai, Zhenyu"
+  ],
+  "year": 2016,
+  "container": "Journal of Marketing Research",
+  "volume": "53",
+  "issue": "6",
+  "page": "881-900",
+  "article": null,
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "10.1016/j.ijresmar.2016.11.006": {
+  "title": "Digital marketing: A framework, review and research agenda",
+  "authors": [
+   "Kannan, P.K.",
+   "Li, Hongshuang “Alice”"
+  ],
+  "year": 2017,
+  "container": "International Journal of Research in Marketing",
+  "volume": "34",
+  "issue": "1",
+  "page": "22-45",
+  "article": null,
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "10.1093/biomet/73.1.13": {
+  "title": "Longitudinal data analysis using generalized linear models",
+  "authors": [
+   "LIANG, KUNG-YEE",
+   "ZEGER, SCOTT L."
+  ],
+  "year": 1986,
+  "container": "Biometrika",
+  "volume": "73",
+  "issue": "1",
+  "page": "13-22",
+  "article": null,
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article"
+ }
+}

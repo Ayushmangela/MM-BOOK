@@ -1,0 +1,36 @@
+# House style for every figure in the chapter (journal look, grayscale-safe).
+font.family: serif
+font.serif: Times New Roman, STIX Two Text, DejaVu Serif
+mathtext.fontset: stix
+font.size: 9
+axes.titlesize: 9
+axes.labelsize: 9
+xtick.labelsize: 8.5
+ytick.labelsize: 8.5
+legend.fontsize: 8.5
+legend.frameon: False
+axes.linewidth: 0.6
+axes.edgecolor: black
+axes.labelcolor: black
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: False
+axes.facecolor: white
+figure.facecolor: white
+savefig.facecolor: white
+xtick.color: black
+ytick.color: black
+xtick.major.width: 0.6
+ytick.major.width: 0.6
+xtick.major.size: 3
+ytick.major.size: 3
+xtick.direction: out
+ytick.direction: out
+lines.linewidth: 0.9
+patch.linewidth: 0.6
+hatch.linewidth: 0.5
+hatch.color: black
+savefig.dpi: 300
+savefig.bbox: tight
+savefig.pad_inches: 0.03
+pdf.fonttype: 42
