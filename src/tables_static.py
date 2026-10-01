@@ -61,7 +61,9 @@ def main():
             "Owner at collection": SHORT_OWNER[b["id"]],
             "Self-declared positioning (coded)": "; ".join(lab[(b["category"], c)] for c in b["positioning_codes"]),
         })
-    pd.DataFrame(rows).to_csv(TABLES / "table1_brands.csv", index=False)
+    t1 = pd.DataFrame(rows)
+    t1.loc[t1.Category.duplicated(), "Category"] = ""  # show each category once, as in print tables
+    t1.to_csv(TABLES / "table1_brands.csv", index=False)
 
     p = prompts_df()
     ex = {}

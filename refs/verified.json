@@ -709,5 +709,63 @@
   "article": null,
   "publisher": "Oxford University Press (OUP)",
   "type": "journal-article"
+ },
+ "10.18653/v1/2025.eval4nlp-1.12": {
+  "title": "Non-Determinism of “Deterministic” LLM System Settings in Hosted Environments",
+  "authors": [
+   "Atıl, Berk",
+   "Aykent, Sarp",
+   "Chittams, Alexa",
+   "Fu, Lisheng",
+   "Passonneau, Rebecca J.",
+   "Radcliffe, Evan",
+   "Rajagopal, Guru Rajan",
+   "Sloan, Adam",
+   "Tudrej, Tomasz",
+   "Ture, Ferhan",
+   "Wu, Zhe",
+   "Xu, Lixinyu",
+   "Baldwin, Breck"
+  ],
+  "year": 2025,
+  "container": "Proceedings of the 5th Workshop on Evaluation and Comparison of NLP Systems",
+  "volume": null,
+  "issue": null,
+  "page": "135-148",
+  "article": null,
+  "publisher": "Association for Computational Linguistics",
+  "type": "proceedings-article"
+ },
+ "10.18653/v1/2024.emnlp-main.707": {
+  "title": "“Global is Good, Local is Bad?”: Understanding Brand Bias in LLMs",
+  "authors": [
+   "Kamruzzaman, Mahammed",
+   "Nguyen, Hieu Minh",
+   "Kim, Gene Louis"
+  ],
+  "year": 2024,
+  "container": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+  "volume": null,
+  "issue": null,
+  "page": "12695-12702",
+  "article": null,
+  "publisher": "Association for Computational Linguistics",
+  "type": "proceedings-article"
+ },
+ "10.1007/s11747-025-01097-2": {
+  "title": "A whole new world, a new fantastic point of view: Charting unexplored territories in consumer research with generative artificial intelligence",
+  "authors": [
+   "Yoo, Kiwoong",
+   "Haenlein, Michael",
+   "Hewett, Kelly"
+  ],
+  "year": 2025,
+  "container": "Journal of the Academy of Marketing Science",
+  "volume": "53",
+  "issue": "3",
+  "page": "723-759",
+  "article": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
  }
 }

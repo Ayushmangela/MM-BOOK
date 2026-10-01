@@ -63,7 +63,9 @@ function csvTable(file, caption, note) {
   const head = rows[0], body = rows.slice(1), n = head.length;
   const W = 9026;
   // width proportional to the longest cell in each column (bounded)
-  const len = head.map((h, j) => Math.min(38, Math.max(6, ...rows.map(r => (r[j] || '').length))));
+  // each column at least as wide as its longest word (so words never break), then share the rest by content
+  const longestWord = j => Math.max(...rows.map(r => Math.max(0, ...String(r[j] || '').split(/\s+/).map(w => w.length))));
+  const len = head.map((h, j) => Math.max(longestWord(j) + 2, Math.min(34, 0.55 * Math.max(...rows.map(r => (r[j] || '').length)))));
   const tot = len.reduce((a, b) => a + b, 0);
   const cw = len.map(l => Math.floor(W * l / tot)); cw[0] += W - cw.reduce((a, b) => a + b, 0);
   const numeric = s => /^[-–]?[\d.,]+%?$|^[\d.]+ \[|^\d/.test(s.trim());
@@ -96,7 +98,6 @@ function figure(file, caption) {
 }
 
 const out = [];
-let numberedRef = 0;
 for (const raw of fs.readFileSync(SRC, 'utf8').split('\n')) {
   const line = raw.replace(/\s+$/, '');
   if (!line.trim()) continue;
@@ -105,8 +106,12 @@ for (const raw of fs.readFileSync(SRC, 'utf8').split('\n')) {
   else if (line.startsWith('@CENTER ')) out.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 80 }, children: runs(line.slice(8)) }));
   else if (line.startsWith('@NOTE ')) out.push(new Paragraph({ spacing: { before: 200, after: 200 }, shading: { fill: 'FFF2CC', type: ShadingType.CLEAR }, children: runs(line.slice(6), 21, { italics: true }) }));
   else if (line === '@PAGEBREAK') out.push(new Paragraph({ children: [new PageBreak()] }));
-  else if (line.startsWith('@FIG ')) { const [f, c] = line.slice(5).split(' | '); out.push(...figure(f.trim(), c.trim())); }
-  else if (line.startsWith('@TABLE ')) { const [f, c, n] = line.slice(7).split(' | '); out.push(...csvTable(f.trim(), c.trim(), n && n.trim())); }
+  else if (line.startsWith('@FIG ')) { const [f, c] = line.slice(5).split(' | ');
+    if (fs.existsSync(f.trim())) out.push(...figure(f.trim(), c.trim()));
+    else { console.warn('MISSING FIGURE ' + f.trim()); out.push(new Paragraph({ children: runs(`[Figure pending: ${f.trim()}] ` + c.trim(), 21, { color: '7F6000' }) })); } }
+  else if (line.startsWith('@TABLE ')) { const [f, c, n] = line.slice(7).split(' | ');
+    if (fs.existsSync(f.trim())) out.push(...csvTable(f.trim(), c.trim(), n && n.trim()));
+    else { console.warn('MISSING TABLE ' + f.trim()); out.push(new Paragraph({ children: runs(`[Table pending: ${f.trim()}] ` + c.trim(), 21, { color: '7F6000' }) })); } }
   else if (line.startsWith('@REF ')) out.push(new Paragraph({ spacing: { after: 100, line: 264 }, indent: { left: 720, hanging: 720 }, children: runs(line.slice(5), 22) }));
   else if (line.startsWith('@QUOTE ')) out.push(new Paragraph({ spacing: { after: 160, line: 276 }, indent: { left: 720, right: 720 }, alignment: AlignmentType.JUSTIFIED, children: runs(line.slice(7), 22) }));
   else if (line.startsWith('### ')) out.push(new Paragraph({ heading: HeadingLevel.HEADING_3, keepNext: true, spacing: { before: 200, after: 80 }, children: [new TextRun({ text: line.slice(4), font: F, size: 24, italics: true, color: '000000' })] }));
